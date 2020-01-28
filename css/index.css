@@ -1,5 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
+   v2.0 | 50110126
    License: none (public domain)
 */
 
@@ -75,18 +75,18 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 50px;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-bottom: 1px dashed black;
 }
 
@@ -105,7 +105,7 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 50px 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -114,7 +114,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 50px;
     justify-content: space-around;
 }
 
@@ -136,11 +136,167 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 50px 2%;
     font-size: 14px;
 }
+ /* below is my code */
+ /*below is my code*/
 
-footer nav a {
+body{
+    margin:10px;
+}
+
+ footer nav a {
     color: white;
     text-decoration: none;
 }
+.title{
+    display:flex;
+    justify-content: space-around;
+    flex-flow:row wrap;
+}
+.titlepic{
+    width:100%;
+    margin:30px;
+}
+.title div{
+    padding-top: 30px;
+}
+a {
+    text-decoration: none;
+}
+.about{
+    width:100%;
+    line-height: 6vh;
+    border-bottom: 2px dashed grey;
+}
+.fourbox{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+.box{
+    width:48%;
+    padding:10px;
+    border-bottom: 2px dashed grey;
+    line-height: 6vh;
+}
+.container{
+    width:100%;
+    padding:30px;
+}
+.box img{
+    width:100%;
+}
+.work{
+    line-height: 6vh;
+}
+.learn{
+    border:3px solid black;
+    width:50%;
+    text-align: center;
+}
+
+ /* box color */
+ .box1{
+    background-color: teal;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box2{
+    background-color:gold;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box3{
+    background-color:cadetblue;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .box4{
+    background-color:coral;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box5{
+    background-color:crimson;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box6{
+    background-color:forestgreen;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box7{
+    background-color:darkorchid;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box8{
+    background-color:hotpink;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box9{
+    background-color:indigo;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box10{
+    background-color:dodgerblue;
+    width:10%;
+    height:85px;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .boxes{
+     display:flex;
+     flex-flow: row wrap;
+
+ }
+
+ /* .box{
+     width:10%;
+     height:85px;
+     margin:px;
+ } */
